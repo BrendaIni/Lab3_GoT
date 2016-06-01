@@ -15,6 +15,22 @@
 		85DDCA3E1CFD20F4006A8520 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DDCA3D1CFD20F4006A8520 /* Images.xcassets */; };
 		85DDCA411CFD20F4006A8520 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DDCA3F1CFD20F4006A8520 /* LaunchScreen.xib */; };
 		85DDCA4D1CFD20F4006A8520 /* GoTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDCA4C1CFD20F4006A8520 /* GoTTests.m */; };
+		85F6708E1CFE7DFE00F597C1 /* Acierto.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6707C1CFE7DFE00F597C1 /* Acierto.JPG */; };
+		85F6708F1CFE7DFE00F597C1 /* JeyneWesterling.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6707E1CFE7DFE00F597C1 /* JeyneWesterling.JPG */; };
+		85F670901CFE7DFE00F597C1 /* ManceRayder.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6707F1CFE7DFE00F597C1 /* ManceRayder.JPG */; };
+		85F670911CFE7DFE00F597C1 /* Pyat Pree.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F670801CFE7DFE00F597C1 /* Pyat Pree.JPG */; };
+		85F670921CFE7DFE00F597C1 /* Ruta.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85F670811CFE7DFE00F597C1 /* Ruta.txt */; };
+		85F670931CFE7DFE00F597C1 /* ShireenBaratheon.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F670821CFE7DFE00F597C1 /* ShireenBaratheon.JPG */; };
+		85F670941CFE7DFE00F597C1 /* StanisBaratheon.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F670831CFE7DFE00F597C1 /* StanisBaratheon.JPG */; };
+		85F670951CFE7DFE00F597C1 /* Falla.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F670841CFE7DFE00F597C1 /* Falla.JPG */; };
+		85F670961CFE7DFE00F597C1 /* game_of_thrones_by_ghigo1972-d64bfrr.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F670851CFE7DFE00F597C1 /* game_of_thrones_by_ghigo1972-d64bfrr.png */; };
+		85F670971CFE7DFE00F597C1 /* AryaStark.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F670871CFE7DFE00F597C1 /* AryaStark.JPG */; };
+		85F670981CFE7DFE00F597C1 /* Catelyn.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F670881CFE7DFE00F597C1 /* Catelyn.JPG */; };
+		85F670991CFE7DFE00F597C1 /* DaenerysTargaryen.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F670891CFE7DFE00F597C1 /* DaenerysTargaryen.JPG */; };
+		85F6709A1CFE7DFE00F597C1 /* Ruta.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85F6708A1CFE7DFE00F597C1 /* Ruta.txt */; };
+		85F6709B1CFE7DFE00F597C1 /* SansaStark.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6708B1CFE7DFE00F597C1 /* SansaStark.JPG */; };
+		85F6709C1CFE7DFE00F597C1 /* TyrionLanninster.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6708C1CFE7DFE00F597C1 /* TyrionLanninster.JPG */; };
+		85F6709D1CFE7DFE00F597C1 /* Logo_Game_of_Thrones.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F6708D1CFE7DFE00F597C1 /* Logo_Game_of_Thrones.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,22 @@
 		85DDCA461CFD20F4006A8520 /* GoTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DDCA4B1CFD20F4006A8520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85DDCA4C1CFD20F4006A8520 /* GoTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoTTests.m; sourceTree = "<group>"; };
+		85F6707C1CFE7DFE00F597C1 /* Acierto.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Acierto.JPG; sourceTree = "<group>"; };
+		85F6707E1CFE7DFE00F597C1 /* JeyneWesterling.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JeyneWesterling.JPG; sourceTree = "<group>"; };
+		85F6707F1CFE7DFE00F597C1 /* ManceRayder.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManceRayder.JPG; sourceTree = "<group>"; };
+		85F670801CFE7DFE00F597C1 /* Pyat Pree.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pyat Pree.JPG"; sourceTree = "<group>"; };
+		85F670811CFE7DFE00F597C1 /* Ruta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ruta.txt; sourceTree = "<group>"; };
+		85F670821CFE7DFE00F597C1 /* ShireenBaratheon.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShireenBaratheon.JPG; sourceTree = "<group>"; };
+		85F670831CFE7DFE00F597C1 /* StanisBaratheon.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StanisBaratheon.JPG; sourceTree = "<group>"; };
+		85F670841CFE7DFE00F597C1 /* Falla.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Falla.JPG; sourceTree = "<group>"; };
+		85F670851CFE7DFE00F597C1 /* game_of_thrones_by_ghigo1972-d64bfrr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_of_thrones_by_ghigo1972-d64bfrr.png"; sourceTree = "<group>"; };
+		85F670871CFE7DFE00F597C1 /* AryaStark.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AryaStark.JPG; sourceTree = "<group>"; };
+		85F670881CFE7DFE00F597C1 /* Catelyn.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Catelyn.JPG; sourceTree = "<group>"; };
+		85F670891CFE7DFE00F597C1 /* DaenerysTargaryen.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DaenerysTargaryen.JPG; sourceTree = "<group>"; };
+		85F6708A1CFE7DFE00F597C1 /* Ruta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ruta.txt; sourceTree = "<group>"; };
+		85F6708B1CFE7DFE00F597C1 /* SansaStark.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SansaStark.JPG; sourceTree = "<group>"; };
+		85F6708C1CFE7DFE00F597C1 /* TyrionLanninster.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TyrionLanninster.JPG; sourceTree = "<group>"; };
+		85F6708D1CFE7DFE00F597C1 /* Logo_Game_of_Thrones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Game_of_Thrones.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +115,7 @@
 		85DDCA2C1CFD20F4006A8520 /* GoT */ = {
 			isa = PBXGroup;
 			children = (
+				85F6707B1CFE7DFE00F597C1 /* GoT Images */,
 				85DDCA571CFD2854006A8520 /* Main */,
 				85DDCA561CFD283A006A8520 /* Controllers */,
 				85DDCA3A1CFD20F4006A8520 /* Main.storyboard */,
@@ -136,6 +169,45 @@
 				85DDCA321CFD20F4006A8520 /* AppDelegate.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		85F6707B1CFE7DFE00F597C1 /* GoT Images */ = {
+			isa = PBXGroup;
+			children = (
+				85F6707C1CFE7DFE00F597C1 /* Acierto.JPG */,
+				85F6707D1CFE7DFE00F597C1 /* Dead */,
+				85F670841CFE7DFE00F597C1 /* Falla.JPG */,
+				85F670851CFE7DFE00F597C1 /* game_of_thrones_by_ghigo1972-d64bfrr.png */,
+				85F670861CFE7DFE00F597C1 /* Live */,
+				85F6708D1CFE7DFE00F597C1 /* Logo_Game_of_Thrones.png */,
+			);
+			path = "GoT Images";
+			sourceTree = "<group>";
+		};
+		85F6707D1CFE7DFE00F597C1 /* Dead */ = {
+			isa = PBXGroup;
+			children = (
+				85F6707E1CFE7DFE00F597C1 /* JeyneWesterling.JPG */,
+				85F6707F1CFE7DFE00F597C1 /* ManceRayder.JPG */,
+				85F670801CFE7DFE00F597C1 /* Pyat Pree.JPG */,
+				85F670811CFE7DFE00F597C1 /* Ruta.txt */,
+				85F670821CFE7DFE00F597C1 /* ShireenBaratheon.JPG */,
+				85F670831CFE7DFE00F597C1 /* StanisBaratheon.JPG */,
+			);
+			path = Dead;
+			sourceTree = "<group>";
+		};
+		85F670861CFE7DFE00F597C1 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				85F670871CFE7DFE00F597C1 /* AryaStark.JPG */,
+				85F670881CFE7DFE00F597C1 /* Catelyn.JPG */,
+				85F670891CFE7DFE00F597C1 /* DaenerysTargaryen.JPG */,
+				85F6708A1CFE7DFE00F597C1 /* Ruta.txt */,
+				85F6708B1CFE7DFE00F597C1 /* SansaStark.JPG */,
+				85F6708C1CFE7DFE00F597C1 /* TyrionLanninster.JPG */,
+			);
+			path = Live;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +290,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F670941CFE7DFE00F597C1 /* StanisBaratheon.JPG in Resources */,
+				85F670951CFE7DFE00F597C1 /* Falla.JPG in Resources */,
+				85F6709C1CFE7DFE00F597C1 /* TyrionLanninster.JPG in Resources */,
+				85F6709A1CFE7DFE00F597C1 /* Ruta.txt in Resources */,
 				85DDCA3C1CFD20F4006A8520 /* Main.storyboard in Resources */,
+				85F6708E1CFE7DFE00F597C1 /* Acierto.JPG in Resources */,
+				85F670961CFE7DFE00F597C1 /* game_of_thrones_by_ghigo1972-d64bfrr.png in Resources */,
+				85F670971CFE7DFE00F597C1 /* AryaStark.JPG in Resources */,
+				85F670921CFE7DFE00F597C1 /* Ruta.txt in Resources */,
 				85DDCA411CFD20F4006A8520 /* LaunchScreen.xib in Resources */,
+				85F670901CFE7DFE00F597C1 /* ManceRayder.JPG in Resources */,
 				85DDCA3E1CFD20F4006A8520 /* Images.xcassets in Resources */,
+				85F670911CFE7DFE00F597C1 /* Pyat Pree.JPG in Resources */,
+				85F670931CFE7DFE00F597C1 /* ShireenBaratheon.JPG in Resources */,
+				85F670981CFE7DFE00F597C1 /* Catelyn.JPG in Resources */,
+				85F6709B1CFE7DFE00F597C1 /* SansaStark.JPG in Resources */,
+				85F670991CFE7DFE00F597C1 /* DaenerysTargaryen.JPG in Resources */,
+				85F6709D1CFE7DFE00F597C1 /* Logo_Game_of_Thrones.png in Resources */,
+				85F6708F1CFE7DFE00F597C1 /* JeyneWesterling.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +528,7 @@
 				85DDCA521CFD20F4006A8520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85DDCA531CFD20F4006A8520 /* Build configuration list for PBXNativeTarget "GoTTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +537,7 @@
 				85DDCA551CFD20F4006A8520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

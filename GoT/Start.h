@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface Start : UIViewController
+- (IBAction)btnLive1Pressed:(id)sender;
+- (IBAction)btnDead2Pressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imgFalla1;
+@property (weak, nonatomic) IBOutlet UIButton *btnLive1;
+@property (weak, nonatomic) IBOutlet UIButton *btnDead1;
 
 
 @end

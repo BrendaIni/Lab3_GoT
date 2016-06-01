@@ -24,4 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnLive1Pressed:(id)sender {
+    self.imgFalla1.image = [UIImage imageNamed:@"Acierto.JPG"];
+    self.btnLive1.backgroundColor = [UIColor = ]
+}
+
+- (IBAction)btnDead2Pressed:(id)sender {
+    self.imgFalla1.image = [UIImage imageNamed:@"Falla.JPG"];
+}
 @end
