@@ -26,10 +26,13 @@
 
 - (IBAction)btnLive1Pressed:(id)sender {
     self.imgFalla1.image = [UIImage imageNamed:@"Acierto.JPG"];
-    self.btnLive1.backgroundColor = [UIColor = ]
+    self.btnLive1.backgroundColor = [UIColor greenColor];
+    self.btnDead1.backgroundColor = [UIColor lightGrayColor];
 }
 
 - (IBAction)btnDead2Pressed:(id)sender {
     self.imgFalla1.image = [UIImage imageNamed:@"Falla.JPG"];
+    self.btnLive1.backgroundColor = [UIColor lightGrayColor];
+    self.btnDead1.backgroundColor = [UIColor redColor];
 }
 @end
