@@ -115,9 +115,9 @@
 		85DDCA2C1CFD20F4006A8520 /* GoT */ = {
 			isa = PBXGroup;
 			children = (
-				85F6707B1CFE7DFE00F597C1 /* GoT Images */,
 				85DDCA571CFD2854006A8520 /* Main */,
 				85DDCA561CFD283A006A8520 /* Controllers */,
+				85F6707B1CFE7DFE00F597C1 /* GoT Images */,
 				85DDCA3A1CFD20F4006A8520 /* Main.storyboard */,
 				85DDCA3D1CFD20F4006A8520 /* Images.xcassets */,
 				85DDCA3F1CFD20F4006A8520 /* LaunchScreen.xib */,

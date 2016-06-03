@@ -16,12 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6U9-31-62R">
-                                <rect key="frame" x="-4" y="0.0" width="329" height="639"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6U9-31-62R">
+                                <rect key="frame" x="-1" y="-21" width="322" height="589"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0BA-3o-YvF">
-                                        <rect key="frame" x="4" y="4" width="321" height="631"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0BA-3o-YvF">
+                                        <rect key="frame" x="0.0" y="0.0" width="321" height="1171"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo_Game_of_Thrones.png" translatesAutoresizingMaskIntoConstraints="NO" id="9lG-gP-CEK">
+                                                <rect key="frame" x="8" y="19" width="322" height="73"/>
+                                            </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AryaStark.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="mi3-oQ-XlK">
                                                 <rect key="frame" x="15" y="92" width="113" height="90"/>
                                             </imageView>
@@ -45,16 +48,16 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="btnDead2Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vfd-Fz-xVy"/>
+                                                    <action selector="btnDead1Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="N1j-Vv-eq2"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ze9-KW-sVl">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ze9-KW-sVl" userLabel="Falla1.JPG">
                                                 <rect key="frame" x="276" y="120" width="37" height="34"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Catelyn.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="zHE-lP-WRE">
                                                 <rect key="frame" x="16" y="195" width="113" height="90"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78W-pV-sca" userLabel="Live1" colorLabel="IBBuiltInLabel-Blue">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78W-pV-sca" userLabel="Live2" colorLabel="IBBuiltInLabel-Blue">
                                                 <rect key="frame" x="137" y="225" width="62" height="30"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
@@ -62,33 +65,39 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnLive2Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HgP-Bk-kbT"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak2-M6-AK1" userLabel="Dead1">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak2-M6-AK1" userLabel="Dead2">
                                                 <rect key="frame" x="207" y="225" width="62" height="30"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Dead">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnDead2Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ifa-wL-Fh4"/>
+                                                </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="b3Y-DC-nS1">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="b3Y-DC-nS1" userLabel="Falla2.JPG">
                                                 <rect key="frame" x="277" y="223" width="37" height="34"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo_Game_of_Thrones.png" translatesAutoresizingMaskIntoConstraints="NO" id="9lG-gP-CEK">
-                                                <rect key="frame" x="8" y="19" width="322" height="73"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DaenerysTargaryen.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="jXL-Ag-lm7">
+                                                <rect key="frame" x="15" y="296" width="113" height="90"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba6-I2-uex" userLabel="Dead1">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba6-I2-uex" userLabel="Dead3">
                                                 <rect key="frame" x="206" y="326" width="62" height="30"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Dead">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnDead3Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iA3-Bw-lg3"/>
+                                                </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="q0P-AC-hcJ">
-                                                <rect key="frame" x="276" y="324" width="37" height="34"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5M-bS-NPS" userLabel="Live1" colorLabel="IBBuiltInLabel-Blue">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5M-bS-NPS" userLabel="Live3" colorLabel="IBBuiltInLabel-Blue">
                                                 <rect key="frame" x="136" y="326" width="62" height="30"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
@@ -96,22 +105,28 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnLive3Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tOv-nF-5F6"/>
+                                                </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DaenerysTargaryen.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="jXL-Ag-lm7">
-                                                <rect key="frame" x="15" y="296" width="113" height="90"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="q0P-AC-hcJ" userLabel="Falla3.JPG">
+                                                <rect key="frame" x="276" y="324" width="37" height="34"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jcs-1H-OWw" userLabel="Dead1">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeyneWesterling.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="5Yn-Cn-CkS">
+                                                <rect key="frame" x="15" y="391" width="113" height="90"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jcs-1H-OWw" userLabel="Dead4">
                                                 <rect key="frame" x="206" y="421" width="62" height="30"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Dead">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnDead4Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="teJ-oL-JLB"/>
+                                                </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="gDT-JW-Q4k">
-                                                <rect key="frame" x="276" y="419" width="37" height="34"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vo8-Du-lrz" userLabel="Live1" colorLabel="IBBuiltInLabel-Blue">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vo8-Du-lrz" userLabel="Live4" colorLabel="IBBuiltInLabel-Blue">
                                                 <rect key="frame" x="136" y="421" width="62" height="30"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
@@ -119,24 +134,197 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnLive4Pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R2w-tY-Nht"/>
+                                                </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeyneWesterling.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="5Yn-Cn-CkS">
-                                                <rect key="frame" x="15" y="391" width="113" height="90"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="gDT-JW-Q4k" userLabel="Falla4.JPG">
+                                                <rect key="frame" x="276" y="419" width="37" height="34"/>
                                             </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ManceRayder.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ECF-69-4ae">
+                                                <rect key="frame" x="15" y="495" width="113" height="90"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtS-v6-sO3" userLabel="Dead5">
+                                                <rect key="frame" x="206" y="525" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Dead">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZt-mT-HAW" userLabel="Live5" colorLabel="IBBuiltInLabel-Blue">
+                                                <rect key="frame" x="136" y="525" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Live">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="5oQ-yY-cpo" userLabel="Falla5.JPG">
+                                                <rect key="frame" x="276" y="523" width="37" height="34"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pyat Pree.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="3GA-A8-LkD">
+                                                <rect key="frame" x="16" y="593" width="113" height="90"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCF-Sw-tdU" userLabel="Dead6">
+                                                <rect key="frame" x="207" y="623" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Dead">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMw-3e-8A4" userLabel="Live6" colorLabel="IBBuiltInLabel-Blue">
+                                                <rect key="frame" x="137" y="623" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Live">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="MIb-Y1-MVv" userLabel="Falla6.JPG">
+                                                <rect key="frame" x="277" y="621" width="37" height="34"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SansaStark.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Fjq-Jm-Vfj">
+                                                <rect key="frame" x="15" y="691" width="113" height="90"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAF-Cj-2bU" userLabel="Dead7">
+                                                <rect key="frame" x="206" y="721" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Dead">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fez-yi-EZN" userLabel="Live7" colorLabel="IBBuiltInLabel-Blue">
+                                                <rect key="frame" x="136" y="721" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Live">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="kXI-iX-hSt" userLabel="Falla7.JPG">
+                                                <rect key="frame" x="276" y="719" width="37" height="34"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ShireenBaratheon.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="wkF-3p-Fkq">
+                                                <rect key="frame" x="16" y="783" width="113" height="90"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vb9-xu-GfZ" userLabel="Dead8">
+                                                <rect key="frame" x="207" y="812" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Dead">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fm-Vm-aHR" userLabel="Live8" colorLabel="IBBuiltInLabel-Blue">
+                                                <rect key="frame" x="137" y="812" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Live">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Oge-MH-tt1" userLabel="Falla8.JPG">
+                                                <rect key="frame" x="277" y="810" width="37" height="34"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StanisBaratheon.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="pvo-4f-1M1">
+                                                <rect key="frame" x="16" y="881" width="113" height="90"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dkc-aQ-kBi" userLabel="Dead9">
+                                                <rect key="frame" x="207" y="910" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Dead">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhx-ON-aPx" userLabel="Live9" colorLabel="IBBuiltInLabel-Blue">
+                                                <rect key="frame" x="137" y="910" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Live">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="wMD-uZ-pGY" userLabel="Falla9.JPG">
+                                                <rect key="frame" x="277" y="908" width="37" height="34"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TyrionLanninster.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="l4h-eM-Tup">
+                                                <rect key="frame" x="16" y="979" width="113" height="90"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLJ-Pn-B5z" userLabel="Dead0">
+                                                <rect key="frame" x="207" y="1008" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Dead">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLV-gG-Twi" userLabel="Live0" colorLabel="IBBuiltInLabel-Blue">
+                                                <rect key="frame" x="137" y="1008" width="62" height="30"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Live">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Falla.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="vGu-IM-f9W" userLabel="Falla0.JPG">
+                                                <rect key="frame" x="277" y="1006" width="37" height="34"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJq-YJ-m4y">
+                                                <rect key="frame" x="207" y="1115" width="84" height="30"/>
+                                                <state key="normal" title="Next">
+                                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1171" id="HPq-ya-YSB"/>
+                                            <constraint firstAttribute="width" constant="321" id="YQD-IH-E50"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0BA-3o-YvF" secondAttribute="bottom" id="9N1-cB-TyM"/>
+                                    <constraint firstAttribute="trailing" secondItem="0BA-3o-YvF" secondAttribute="trailing" id="FoH-fE-KMo"/>
+                                    <constraint firstItem="0BA-3o-YvF" firstAttribute="leading" secondItem="6U9-31-62R" secondAttribute="leading" id="sZ7-Ui-m3Y"/>
+                                    <constraint firstItem="0BA-3o-YvF" firstAttribute="top" secondItem="6U9-31-62R" secondAttribute="top" id="x8H-n3-Oce"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6U9-31-62R" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="E2U-dT-Yrb"/>
+                            <constraint firstItem="6U9-31-62R" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="EjQ-YT-LoU"/>
+                            <constraint firstAttribute="trailing" secondItem="6U9-31-62R" secondAttribute="trailing" id="OZq-2F-fgH"/>
+                            <constraint firstAttribute="bottom" secondItem="6U9-31-62R" secondAttribute="bottom" id="RQz-OC-593"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="btnDead1" destination="Cim-g7-mXg" id="wzn-x9-QRj"/>
-                        <outlet property="btnLive1" destination="6JF-T8-jrN" id="Z0U-mZ-OmT"/>
+                        <outlet property="btnDead2" destination="ak2-M6-AK1" id="tzq-ew-gth"/>
+                        <outlet property="btnDead3" destination="ba6-I2-uex" id="WMn-x7-MeK"/>
+                        <outlet property="btnDead4" destination="Jcs-1H-OWw" id="7ub-BD-FyV"/>
+                        <outlet property="btnLive1" destination="6JF-T8-jrN" id="tN7-3D-R5m"/>
+                        <outlet property="btnLive2" destination="78W-pV-sca" id="wpZ-UB-ntC"/>
+                        <outlet property="btnLive3" destination="Y5M-bS-NPS" id="2cy-Zc-2E9"/>
+                        <outlet property="btnLive4" destination="vo8-Du-lrz" id="FXD-ey-uc7"/>
                         <outlet property="imgFalla1" destination="ze9-KW-sVl" id="VYe-If-k5n"/>
+                        <outlet property="imgFalla2" destination="b3Y-DC-nS1" id="NA9-Ui-noh"/>
+                        <outlet property="imgFalla3" destination="q0P-AC-hcJ" id="lfj-PJ-e6B"/>
+                        <outlet property="imgFalla4" destination="gDT-JW-Q4k" id="iaY-GL-DlI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -151,6 +339,12 @@
         <image name="Falla.JPG" width="340" height="355"/>
         <image name="JeyneWesterling.JPG" width="295" height="277"/>
         <image name="Logo_Game_of_Thrones.png" width="1500" height="400"/>
+        <image name="ManceRayder.JPG" width="345" height="316"/>
+        <image name="Pyat Pree.JPG" width="313" height="295"/>
+        <image name="SansaStark.JPG" width="349" height="232"/>
+        <image name="ShireenBaratheon.JPG" width="256" height="258"/>
+        <image name="StanisBaratheon.JPG" width="337" height="298"/>
+        <image name="TyrionLanninster.JPG" width="351" height="280"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
