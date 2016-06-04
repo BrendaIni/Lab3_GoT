@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize: CGSizeMake(320, 1190)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -68,5 +70,76 @@
     self.btnLive4.backgroundColor = [UIColor greenColor];
     self.btnDead4.backgroundColor = [UIColor lightGrayColor];
 
+}
+- (IBAction)btnDead5Pressed:(id)sender {
+    self.imgFalla5.image = [UIImage imageNamed:@"Falla.JPG"];
+    self.btnLive5.backgroundColor = [UIColor lightGrayColor];
+    self.btnDead5.backgroundColor = [UIColor redColor];
+
+}
+
+- (IBAction)btnLive5Pressed:(id)sender {
+    self.imgFalla5.image = [UIImage imageNamed:@"Acierto.JPG"];
+    self.btnLive5.backgroundColor = [UIColor greenColor];
+    self.btnDead5.backgroundColor = [UIColor lightGrayColor];
+}
+- (IBAction)btnDead6Pressed:(id)sender {
+    self.imgFalla6.image = [UIImage imageNamed:@"Falla.JPG"];
+    self.btnLive6.backgroundColor = [UIColor lightGrayColor];
+    self.btnDead6.backgroundColor = [UIColor redColor];
+
+}
+
+- (IBAction)btnLive6Pressed:(id)sender {
+    self.imgFalla6.image = [UIImage imageNamed:@"Acierto.JPG"];
+    self.btnLive6.backgroundColor = [UIColor greenColor];
+    self.btnDead6.backgroundColor = [UIColor lightGrayColor];
+}
+- (IBAction)btnDead7Pressed:(id)sender {
+    self.imgFalla7.image = [UIImage imageNamed:@"Falla.JPG"];
+    self.btnLive7.backgroundColor = [UIColor lightGrayColor];
+    self.btnDead7.backgroundColor = [UIColor redColor];
+
+}
+
+- (IBAction)btnLive7Pressed:(id)sender {
+    self.imgFalla7.image = [UIImage imageNamed:@"Acierto.JPG"];
+    self.btnLive7.backgroundColor = [UIColor greenColor];
+    self.btnDead7.backgroundColor = [UIColor lightGrayColor];
+}
+- (IBAction)btnDead8Pressed:(id)sender {
+    self.imgFalla8.image = [UIImage imageNamed:@"Falla.JPG"];
+    self.btnLive8.backgroundColor = [UIColor lightGrayColor];
+    self.btnDead8.backgroundColor = [UIColor redColor];
+}
+
+- (IBAction)btnLive8Pressed:(id)sender {
+    self.imgFalla8.image = [UIImage imageNamed:@"Acierto.JPG"];
+    self.btnLive8.backgroundColor = [UIColor greenColor];
+    self.btnDead8.backgroundColor = [UIColor lightGrayColor];
+}
+- (IBAction)btnDead9Pressed:(id)sender {
+    self.imgFalla9.image = [UIImage imageNamed:@"Falla.JPG"];
+    self.btnLive9.backgroundColor = [UIColor lightGrayColor];
+    self.btnDead9.backgroundColor = [UIColor redColor];
+
+}
+
+- (IBAction)btnLive9Pressed:(id)sender {
+    self.imgFalla9.image = [UIImage imageNamed:@"Acierto.JPG"];
+    self.btnLive9.backgroundColor = [UIColor greenColor];
+    self.btnDead9.backgroundColor = [UIColor lightGrayColor];
+}
+- (IBAction)btnDead0Pressed:(id)sender {
+    self.imgFalla0.image = [UIImage imageNamed:@"Falla.JPG"];
+    self.btnLive0.backgroundColor = [UIColor lightGrayColor];
+    self.btnDead0.backgroundColor = [UIColor redColor];
+
+}
+
+- (IBAction)btnLive0Pressed:(id)sender {
+    self.imgFalla0.image = [UIImage imageNamed:@"Acierto.JPG"];
+    self.btnLive0.backgroundColor = [UIColor greenColor];
+    self.btnDead0.backgroundColor = [UIColor lightGrayColor];
 }
 @end
