@@ -16,6 +16,9 @@
 		85DDCA411CFD20F4006A8520 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DDCA3F1CFD20F4006A8520 /* LaunchScreen.xib */; };
 		85DDCA4D1CFD20F4006A8520 /* GoTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDCA4C1CFD20F4006A8520 /* GoTTests.m */; };
 		85EBC76D1D02655800D36E2A /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBC76C1D02655800D36E2A /* Score.m */; };
+		85EBC7711D066A7D00D36E2A /* sad-face.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 85EBC76E1D066A7C00D36E2A /* sad-face.jpeg */; };
+		85EBC7721D066A7D00D36E2A /* x-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EBC76F1D066A7C00D36E2A /* x-face.png */; };
+		85EBC7731D066A7D00D36E2A /* happy-face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EBC7701D066A7C00D36E2A /* happy-face.jpg */; };
 		85F6708E1CFE7DFE00F597C1 /* Acierto.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6707C1CFE7DFE00F597C1 /* Acierto.JPG */; };
 		85F6708F1CFE7DFE00F597C1 /* JeyneWesterling.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6707E1CFE7DFE00F597C1 /* JeyneWesterling.JPG */; };
 		85F670901CFE7DFE00F597C1 /* ManceRayder.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 85F6707F1CFE7DFE00F597C1 /* ManceRayder.JPG */; };
@@ -59,6 +62,9 @@
 		85DDCA4C1CFD20F4006A8520 /* GoTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoTTests.m; sourceTree = "<group>"; };
 		85EBC76B1D02655800D36E2A /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
 		85EBC76C1D02655800D36E2A /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		85EBC76E1D066A7C00D36E2A /* sad-face.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sad-face.jpeg"; sourceTree = "<group>"; };
+		85EBC76F1D066A7C00D36E2A /* x-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-face.png"; sourceTree = "<group>"; };
+		85EBC7701D066A7C00D36E2A /* happy-face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "happy-face.jpg"; sourceTree = "<group>"; };
 		85F6707C1CFE7DFE00F597C1 /* Acierto.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Acierto.JPG; sourceTree = "<group>"; };
 		85F6707E1CFE7DFE00F597C1 /* JeyneWesterling.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JeyneWesterling.JPG; sourceTree = "<group>"; };
 		85F6707F1CFE7DFE00F597C1 /* ManceRayder.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManceRayder.JPG; sourceTree = "<group>"; };
@@ -183,6 +189,9 @@
 		85F6707B1CFE7DFE00F597C1 /* GoT Images */ = {
 			isa = PBXGroup;
 			children = (
+				85EBC76E1D066A7C00D36E2A /* sad-face.jpeg */,
+				85EBC76F1D066A7C00D36E2A /* x-face.png */,
+				85EBC7701D066A7C00D36E2A /* happy-face.jpg */,
 				85F6707C1CFE7DFE00F597C1 /* Acierto.JPG */,
 				85F6707D1CFE7DFE00F597C1 /* Dead */,
 				85F670841CFE7DFE00F597C1 /* Falla.JPG */,
@@ -302,14 +311,17 @@
 				85F6709C1CFE7DFE00F597C1 /* TyrionLanninster.JPG in Resources */,
 				85DDCA3C1CFD20F4006A8520 /* Main.storyboard in Resources */,
 				85F6708E1CFE7DFE00F597C1 /* Acierto.JPG in Resources */,
+				85EBC7721D066A7D00D36E2A /* x-face.png in Resources */,
 				85F670961CFE7DFE00F597C1 /* game_of_thrones_by_ghigo1972-d64bfrr.png in Resources */,
 				85F670971CFE7DFE00F597C1 /* AryaStark.JPG in Resources */,
 				85DDCA411CFD20F4006A8520 /* LaunchScreen.xib in Resources */,
 				85F670901CFE7DFE00F597C1 /* ManceRayder.JPG in Resources */,
 				85DDCA3E1CFD20F4006A8520 /* Images.xcassets in Resources */,
+				85EBC7731D066A7D00D36E2A /* happy-face.jpg in Resources */,
 				85F670911CFE7DFE00F597C1 /* Pyat Pree.JPG in Resources */,
 				85F670931CFE7DFE00F597C1 /* ShireenBaratheon.JPG in Resources */,
 				85F670981CFE7DFE00F597C1 /* Catelyn.JPG in Resources */,
+				85EBC7711D066A7D00D36E2A /* sad-face.jpeg in Resources */,
 				85F6709B1CFE7DFE00F597C1 /* SansaStark.JPG in Resources */,
 				85F670991CFE7DFE00F597C1 /* DaenerysTargaryen.JPG in Resources */,
 				85F6709D1CFE7DFE00F597C1 /* Logo_Game_of_Thrones.png in Resources */,
